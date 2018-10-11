@@ -27,15 +27,15 @@ export function getAuthServiceConfigs() {
       [
         {
           id: FacebookLoginProvider.PROVIDER_ID,
-          provider: new FacebookLoginProvider("249082895750764")
+          provider: new FacebookLoginProvider("")
         },
         {
           id: GoogleLoginProvider.PROVIDER_ID,
-          provider: new GoogleLoginProvider("39496335560-mes00jsp9uk77pa9teihrcusgve234bk.apps.googleusercontent.com")
+          provider: new GoogleLoginProvider("")
         },
           {
             id: LinkedinLoginProvider.PROVIDER_ID,
-            provider: new LinkedinLoginProvider("1098828800522-m2ig6bieilc3tpqvmlcpdvrpvn86q4ks.apps.googleusercontent.com")
+            provider: new LinkedinLoginProvider("")
           },
       ]
   );
